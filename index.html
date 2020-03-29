@@ -1,0 +1,73 @@
+<!-- http://radioaovivo.ufrgs.br:8000/stream.mp3-->
+<!--mms://drix.senado.leg.br/wmtencoder/radio.wmv-->
+<!--http://radioaovivo.senado.leg.br/fm.mp3-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img\brasil.ico" />
+    <link rel="shortcut icon" href="brasil.ico" type="image/x-icon" />
+    <title>Development</title>
+</head>
+
+<body id="corpo">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href=".\index.html">Pagina Incial</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href=".\player.html">Agendar evento</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Documentação</a>
+    </li>
+  </ul>
+<br>
+<br>
+<br>
+  <div class="card-deck">
+    <div class="card">
+      <img src="img/bandeiraBrasil.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Programa voz do Brasil</h5>
+        <p class="card-text">O programa “A Voz do Brasil”, que está há mais de 80 anos no ar, poderá ser veiculado pelas emissoras de rádio no intervalo das 19 às 22 horas e não mais obrigatoriamente das 19 às 20 horas. A lei que flexibiliza o horário foi sancionada nesta quarta-feira (4) pelo presidente Michel Temer (Lei 13.644/18). Fonte: Agência Câmara de Notícias</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/radio.png"  class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Radio no Brasil</h5>
+        <p class="card-text">O rádio nasceu no Brasil, oficialmente, em 7 de setembro de 1922, nas comemorações do centenário da Independência do país, com a transmissão, à distancia e sem fios, da fala  do presidente Epitácio Pessoa na inauguração da radiotelefonia brasileira. Roquette Pinto, um médico que pesquisava a radioeletricidade para fins fisiológicos, acompanhava tudo e, entusiasmado com as transmissões, convenceu a Academia Brasileira de Ciências a patrocinar a criação da Rádio Sociedade do Rio de Janeiro, que viria a ser a PRA-2.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/senado.png" width="100px" height="400px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Escute a Radio do Senado</h5>
+        <p class="card-text">Fique por dentro das noticias que desrespeitam nosso país.</p>
+        <audio controls id="senado" controls src="http://radioaovivo.senado.leg.br/fm.mp3" type="application/x-mpegURL"></audio>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

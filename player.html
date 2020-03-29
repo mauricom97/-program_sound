@@ -1,0 +1,47 @@
+<!-- http://radioaovivo.ufrgs.br:8000/stream.mp3-->
+<!--mms://drix.senado.leg.br/wmtencoder/radio.wmv-->
+<!--http://radioaovivo.senado.leg.br/fm.mp3-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img\brasil.ico" />
+    <title>Development</title>
+</head>
+
+<body id="corpo">
+
+
+          <div id="demo" class="display-2"></div>
+            
+            
+            <p id="agendamentoLocal"></p>
+            <p id="agendamentoExterno"></p>
+
+
+
+<center><div id="opcoes">       
+<input type="button" class="btn btn-primary btn-lg" value="Agendar evento com audio local" onclick="opcaoLocal();">
+<input type="button" class="btn btn-secondary btn-lg" value="Agendar evento com link" onclick="opcaoLink();">
+</div></center><br>
+
+<div id="displaySemantico">
+<center><img src="img/tempo.png" height="200px" alt=""></center>
+</div>
+<p id="aguardando"></p>
+<p id="playon"></p>
+
+
+              <!--<button type="button" class="btn btn-primary btn-lg btn-block" onclick="agendarLink();">Agendar com link</button>-->
+              <!--<button type="button" class="btn btn-secondary btn-lg btn-block" >Agendar com arquivo local</button>-->
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

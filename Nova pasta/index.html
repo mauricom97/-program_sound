@@ -1,0 +1,45 @@
+<!-- http://radioaovivo.ufrgs.br:8000/stream.mp3-->
+<!--mms://drix.senado.leg.br/wmtencoder/radio.wmv-->
+<!--http://radioaovivo.senado.leg.br/fm.mp3-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img\brasil.ico" />
+    <title>Development</title>
+</head>
+
+<body id="corpo">
+  <audio id="audio" src="audios/evento.mp3" type="application/x-mpegURL"></audio>
+
+
+  
+  <center><div id="demo" class="display-2"></div></center>
+  
+  <div id="agendar">
+    <center>
+    <input type="time" name="hora" value="00:00:00" id="iniciotr" max="23:59:59" min="00:00:00" step="1"><p id="inicio">Inicio do evento</p><input type="time" name="hora" value="23:59:59" id="terminotr" max="23:59:59" min="00:00:00" step="1"><p id="termino">Termino do evento</p>
+    <p id="aguardando"></p>
+    <p id="playon"></p>
+    <img src="img\agendar.png" width="50px" height="50px" id="botao" onclick="agendar();">
+    <br>
+    <br>
+    <div class="container-xl">
+    <input class="arquivo" type="file" id="input">
+    </div>
+    <br>
+    <br>
+    <audio id="sound" controls></audio>
+    <br>
+    <br>
+    
+  </center>
+
+</body>
+<script src="script.js"></script>
+</html>

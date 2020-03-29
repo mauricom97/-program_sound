@@ -1,0 +1,88 @@
+
+    body{
+      background-color: rgba(255, 208, 0, 0.993);
+      margin: 20px;
+    }
+    #iniciotr{
+      border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:150px
+    }
+    #terminotr{
+      border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:150px
+    }
+   #agendar{
+     background-color: rgb(0, 153, 255);
+     border-radius: 2em;
+     padding-top: 4em;
+     width: 500px;
+     height: 450px;
+     font-family: arial, sans-serif;
+     padding: 50px;
+     
+  
+   }
+  
+   .inicio{
+     color: rgb(255, 251, 0);
+     position: relative;
+   }
+   .fim{
+    color: rgb(255, 251, 0);
+    position: relative;
+   }
+   .copia{
+     object-position: bottom;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+   }
+   #horarioAgenda{
+    border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:150px;
+  
+   }
+   #aguardando{
+     font-size: 15px;
+     font-style: italic;
+   }
+   #demo{
+     color: rgb(255, 255, 255);
+     font-size: 150px;
+     font-style: italic;
+     font-variant: initial;
+   }
+   #horario{
+     color: rgb(255, 255, 255);
+  
+   }
+   #termino{
+     color: aliceblue;
+   }
+   #inicio{
+    color: aliceblue;
+    
+   }
+   #infos{
+     color: darkorange;
+   }
