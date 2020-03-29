@@ -12,7 +12,7 @@
       -webkit-box-shadow: 1px 1px 2px #333333;
       background: #cccccc; 
       border:1px solid #000000;
-      width:100px
+      width:200px
     }
     #terminotr{
       border-radius:4px;
@@ -23,7 +23,7 @@
       -webkit-box-shadow: 1px 1px 2px #333333;
       background: #cccccc; 
       border:1px solid #000000;
-      width:100px
+      width:200px
     }
 
   
@@ -55,9 +55,10 @@
    #demo{
     margin: 0px;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(60, 255, 0);
    }
+
    #horario{
      color: rgb(0, 0, 0);
   
@@ -91,14 +92,38 @@
      text-align: left;
    }
    audio{
-    color: #f7de00;
+    object-position: top;
    }
    section
    {
        background-color: rgba(255, 255, 255, 0.521);
        border-radius: 10px;
        padding: 15px;
-       width: 500px;
+       width: 800px;
        margin: auto;
        box-shadow: 5px 5px 10px rgba(0, 0, 0, 363);
    }
+   input{
+     padding: 5px;
+     font-style: italic;
+     font-family: 'Press Start 2P', cursive;
+   }
+   button{
+    font-family: 'Press Start 2P', cursive;
+   }
+   h6{
+    font-family: 'Press Start 2P', cursive;
+   }
+   text{
+    font-family: 'Press Start 2P', cursive;
+   }
+   label{
+    font-family: 'Press Start 2P', cursive;
+   }
+  #linkRadio{
+    width: 760px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+  }

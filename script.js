@@ -1,11 +1,8 @@
 //Funcao pega horarios:
 function pegahora(){
-iniciotr = document.getElementById('iniciotr').value;
-terminotr = document.getElementById('terminotr').value;
-
+iniciotr = document.getElementById('iniciotr').value.toLocaleTimeString();
+terminotr = document.getElementById('terminotr').value.toLocaleTimeString();
 }
-
-
 
 //Funcao do Relogio Display:
 var myVar = setInterval(myTimer ,1000);
@@ -19,7 +16,6 @@ function myTimer() {
       document.getElementById("demo").innerHTML = displayDate;
 }
 
-
 //Funcao de agendamento:
 var horaAtual;
 var transBox;
@@ -30,9 +26,7 @@ function tranmissaoin(){
       if(horaAtual == iniciotr){
          sound.play();
       }
-
 }
-
 
 //Funcao do audio:
 var audio;
@@ -40,9 +34,6 @@ var audio;
   sound.play();
 }
 
-function pause(){
-   sound.pause();
-}
 
 //Escolhendo audio
 function entraAudio(){
@@ -101,14 +92,6 @@ function linkAudio(){
 
 }
 
-function pausaLink(){
-   horaAtual = new Date();
-   horaAtual = horaAtual.toLocaleTimeString();
-   if(horaAtual == terminotr){
-      sound1.pause()
-
-   }
-}
 
 function agendarLink(){
 
@@ -141,7 +124,11 @@ function testarLink(){
    }
 }
 
+
+//Selecionando opcaoes de reprodução.
+
 function opcaoLocal(){
+
    var section = document.getElementById('displaySemantico');
    section.innerHTML=`            <section>
 
@@ -152,8 +139,8 @@ function opcaoLocal(){
    <input class="arquivo" type="file" id="input">
    
    <div id="relogioUser">
-     <label>Inicio: </label><br><input type="time" name="hora" id="iniciotr" max="23:59:59" min="00:00:00" step="1"><br><br>
-     <labeL>Termino:</label><br><input type="time" name="hora" id="terminotr" max="23:59:59" min="00:00:00" step="1"><br><br>
+     <label>Inicio: </label><br><input type="time" name="hora" id="iniciotr" max="23:59:59" min="00:00:01" step="1"><br><br>
+     <labeL>Termino:</label><br><input type="time" name="hora" id="terminotr" max="23:59:59" min="00:00:01" step="1"><br><br>
      </div>
    <div>
 
@@ -162,9 +149,13 @@ function opcaoLocal(){
    <center><button type="button" onclick="agendarLocal();" class="btn btn-primary btn-sm">Agendar</button></center>
 </section>`
 entraAudio();
+      
+
 }
 
+var verificaAcaoLink = 0;
 function opcaoLink(){
+
    var section = document.getElementById('displaySemantico');
    section.innerHTML=`            <section>
 
@@ -172,7 +163,7 @@ function opcaoLink(){
        <center><h6>Agendamento com link</h6></center>
    </div>
    <div id="link">
-     <input type="url" placeholder="Insira aqui o link" id="linkRadio"> <button type="button" class="btn btn-success" onclick="testarLink();">Testar link</button><br><br>
+     <input type="url" placeholder="http://demonstracao.exemplo.br:8000/stream.mp3" id="linkRadio"><br><br> <button type="button" class="btn btn-success" onclick="testarLink();">Testar link</button><br><br>
     <center><audio controls id="audio" type="application/x-mpegURL"></audio></center>
        </div>
        <div id="relogioUser">
@@ -180,9 +171,11 @@ function opcaoLink(){
          <labeL>Termino:</label><br><input type="time" name="hora" id="terminotr" max="23:59:59" min="00:00:00" step="1"><br><br>
          </div>
        <div>
-         <center><button type="button" onclick="agendarLink();" class="btn btn-primary btn-sm">Agendar</button></center>
+       <center><button type="button" onclick="agendarLink();" class="btn btn-primary btn-sm">Agendar</button></center>
+       
 </section>`
 
-}
+
+   }
 
 
