@@ -2,6 +2,7 @@
     body{
       background-color: #000000;
       margin: 5px;
+      font-family: 'Press Start 2P', cursive;
     }
     #iniciotr{
       border-radius:4px;
@@ -127,3 +128,21 @@
     border-top-right-radius: 10px;
     padding: 10px;
   }
+
+ul{
+  font-family: 'Press Start 2P', cursive;
+}
+#sobre{
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(60, 255, 0);
+  text-align: center;
+}
+#sobreBody{
+  background-color: black;
+}
+footer{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  top: 20px;
+  color: aliceblue;
+}
