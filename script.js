@@ -1,7 +1,7 @@
 //Funcao pega horarios:
 function pegahora(){
-iniciotr = document.getElementById('iniciotr').value.toLocaleTimeString();
-terminotr = document.getElementById('terminotr').value.toLocaleTimeString();
+iniciotr = document.getElementById('iniciotr').value;
+terminotr = document.getElementById('terminotr').value;
 }
 
 //Funcao do Relogio Display:
@@ -94,7 +94,6 @@ function linkAudio(){
 
 
 function agendarLink(){
-
    sound1 = document.getElementById('audio');
    var link = document.getElementById('linkRadio').value
    if(link == ''){
