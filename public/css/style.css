@@ -1,0 +1,146 @@
+    body{
+      background-color: #cccccc; /* Used if the image is unavailable */
+      height: 800px; /* You must set a specified height */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    #iniciotr{
+      border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:200px
+    }
+    #terminotr{
+      border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:200px
+    }
+
+  
+   .inicio{
+     color: rgb(255, 251, 0);
+     
+   }
+   .fim{
+    color: rgb(255, 251, 0);
+    
+   } 
+
+   #horarioAgenda{
+    border-radius:4px;
+      -moz-border-radius:4px;
+      -webkit-border-radius:4px;
+      box-shadow: 1px 1px 2px #333333;    
+      -moz-box-shadow: 1px 1px 2px #333333;
+      -webkit-box-shadow: 1px 1px 2px #333333;
+      background: #cccccc; 
+      border:1px solid #000000;
+      width:100px;
+  
+   }
+   #aguardando{
+     font-size: 15px;
+     font-style: italic;
+   }
+   #demo{
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik Mono One', sans-serif;
+    border-color: #ffffff;
+    background-color: #000000;
+   }
+
+   #horario{
+     color: rgb(0, 0, 0);
+  
+   }
+   #termino{
+     color: rgb(0, 0, 0);
+   }
+   #inicio{
+    color: rgb(0, 0, 0);
+    
+   }
+   #infos{
+     color: darkorange;
+   }
+   #links{
+     padding: 15px;
+     background-color: #000000af;
+     color: beige;
+     border-radius: 50px;
+     margin: 10px;
+     text-align: center;
+     width: 800px;
+   }
+
+   #relogioUser{
+     text-align: center;
+     top: 200px;
+   }
+   #link{
+     text-align: right;
+     text-align: left;
+   }
+   audio{
+    object-position: top;
+   }
+   section
+   {
+       
+       border-radius: 10px;
+       padding: 15px;
+       width: 800px;
+       margin: auto;
+       background-color: #002fffaf; /* Used if the image is unavailable */
+       height: 700px; /* You must set a specified height */
+       background-position: center; /* Center the image */
+       background-repeat: no-repeat; /* Do not repeat the image */
+       background-size: cover; /* Resize the background image to cover the entire container */
+       color: rgb(0, 0, 0);
+   }
+   input{
+     padding: 5px;
+     font-style: italic;
+   }
+
+  #linkRadio{
+    width: 760px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+  }
+
+#sobre{
+  color: rgb(60, 255, 0);
+  text-align: center;
+}
+#sobreBody{
+  background-color: rgb(255, 251, 0);
+}
+footer{
+  text-align: center;
+  bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+#paraSobre{
+  text-align: left;
+  margin: 30px;
+}
+#kronos{
+  border-radius: 5%;
+}
