@@ -13,5 +13,5 @@ function myTimer() {
    } else {
       displayDate = d.toLocaleTimeString('pt-BR', {timeZone: 'America/Belem'});
    }
-      document.getElementById("demo").innerHTML = displayDate;
+      document.getElementById("demo").innerHTML = `Horario de Brasilia | ${displayDate}`
 }
