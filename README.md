@@ -1,4 +1,4 @@
-# -program_sound
+# Kronos | Programador de audios.
 Programador WEB de áudios locais, e de streaming
 
 # Links para testes:
