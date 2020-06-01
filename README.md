@@ -1,10 +1,12 @@
-# Kronos | Programador de audios.
-Programador WEB de áudios locais, e de streaming.
+# Kronos
+Scheduler for streaming local audio or streaming.
 
-#back-end
--NodeJs
+# Install
+npm install --save express
+npm install --save express-handlebars
+npm install --save connect-flash
 
-# Links para testes:
+# Links for test:
 http://radioaovivo.ufrgs.br:8000/stream.mp3
 
 mms://drix.senado.leg.br/wmtencoder/radio.wmv
