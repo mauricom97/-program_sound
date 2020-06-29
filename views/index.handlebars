@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <h1 class="display-4">Bem vindo ao blog do Node</h1>
+  <p class="lead">Blog simples desenvolvido com Node, Express, MondoDB</p>
+  <hr class="my-4">
+  <p>Fique por dentro do mundo da tecnologia ;)</p>
+  <a class="btn btn-primary btn-lg" href="/usuarios/registro" role="button">Crie uma conta</a>
+  
+</div>
+
+
+
+<h1 class="display-4">Postagens recentes:</h1>
+{{#each postagens}}
+<div class="card mt-3">
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <small>{{categoria.nome}}</small>
+        <hr>
+        <p>{{descricao}}</p>
+        <small>Data de publicação: {{data}}</small><br>
+        <a href="/postagem/{{slug}}" ><button class="btn btn-success mt-3">Leia mais</button></a>
+    </div>
+</div>
+{{else}}
+<h5>Nenhuma postagem cadastrada</h5>
+{{/each}}
